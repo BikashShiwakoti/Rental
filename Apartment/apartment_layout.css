@@ -1,0 +1,42 @@
+/* <Author: Bikash Shiwakoti,000891600>  */
+h1, h5{
+    text-align: center;
+}
+header img{
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav li{
+    margin: 4px 10px 0px 12px;
+}
+nav li a{
+    margin: 0 10px;
+}
+table{
+    border-collapse: collapse;
+}
+td,th{
+    border: 1px solid black;
+}
+table th{
+    background-color: grey;
+}
+.last{
+    background-color: greenyellow;
+}
+h2{
+    background-color: yellow;
+}
+h1{
+    background-color: yellow;
+    text-align: center;
+}

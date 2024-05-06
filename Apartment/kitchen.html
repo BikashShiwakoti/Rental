@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <Author: Bikash Shiwakoti,000891600> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandy and Leslie's apartment</title>
+    <link rel="stylesheet" type="text/css" href="apartment_layout.css">
+    <link rel="stylesheet" type="text/css" href="mobile.css">
+    <style>
+        @media  screen and (max-width: 786px) {
+          header img{
+           display: none;
+          }
+        }
+        main img{
+            display: flex;
+            justify-self: center;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sandy and Leslie's apartment</h1>    
+        <h5>Click a room for detailed view.</h5>
+        <img src="apartmentfloorplan.jpg" usemap="#image_map" alt="apartment">
+        <map name="image_map">
+         <area alt="bedroom" title="bedroom" href="bedroom.html" coords="382,110,552,106,578,308,502,308,492,246,388,238" shape="poly">         <area alt="dinning" title="dinning" href="dinningroom.html" coords="339,348,41" shape="circle">
+         <area alt="kitchen" title="kitchen" href="kitchen.html" coords="190,287,289,393" shape="rect">
+         <area alt="livingroom" title="livingroom" href="livingroom.html" coords="199,111,340,286" shape="rect">
+         <area alt="bedroom" title="bedroom" href="bedroom.html" coords="32,104,180,266" shape="rect">
+        </map>
+     </header>
+     <nav>
+        <ul>
+            <li><a href="apartment.html">Apartment</a></li>
+            <li><a href="bedroom.html">Bedroom1</a></li>
+            <li><a href="bedroom.html">Bedroom2</a></li>
+            <li><a href="dinningroom.html">Dinningroom</a></li>
+            <li><a href="kitchen.html">Kitchen</a></li>
+            <li><a href="livingroom.html">Livingroom</a></li>
+          </ul>
+     </nav>
+     <main>
+        <h1>Kitchen</h1>
+        <img src="kitchen_lg.jpg" alt="kitchen">
+        <h2>Apartment Services</h2>
+        <table>
+            <tr>
+                <th>Services</th>
+                <th>Days/Hours</th>
+            </tr>
+            <tr>
+                <td>Gym</td>
+                <td rowspan="2">Monday - Friday 6am - 10pm,<br> Saturday 8am - 8pm,<br>
+                     Sunday 8am - 5pm</td>
+            </tr>
+            <tr>
+                <td>Pool</td>
+            </tr>
+            <tr>
+                <td>Laundry</td>
+                <td>24/7</td>
+            </tr>
+            <tr class="last">
+                <td colspan="2">Please do not allow people you don not know to use these facilities.</td>
+            </tr>
+        </table>
+    </main>
+    <footer>
+        <p>For more information contact:<a href="mailto:SandyAndLeslie@example.com"> SandyAndLeslie@example.com </a> or <a href="tel:+9055551234">(905) 555-1234</a></p>
+        <p>&copy; Sandy And Leslie 2022</p>
+     </footer>
+</body>
+</html>
